@@ -1,0 +1,39 @@
+Player,Team,Role,Cost,Match_points
+P.Shaw,DC,BAT,9,"[26, 87, 6, 90, 55, 27, 17, 2, 2, 10, 16, 23]"
+Shikhar Dhawan,DC,BAT,8.5,"[2, 44, 42, 44, 47, 18, 89, 79, 145, 144, 11, 2, 2, 72]"
+Hetmeyer,DC,BAT,8,"[16, 12, 29, 21, 25, 84, 16, 16, 23, 16]"
+Shreyas Iyer,DC,BAT,9.5,"[57, 31, 23, 119, 24, 38, 59, 72, 30, 20, 56, 15, 32, 19]"
+Rishabh Pant,DC,WK,9,"[47, 68, 45, 57, 64, 17, 39, 43, 45, 27, 27]"
+Marcus Stoinis,DC,ALL,9.5,"[126, 10, 16, 24, 83, 101, 38, 23, 33, 13, 56, 10, 6, 24]"
+Axar Patel,DC,ALL,9,"[41, 39, 17, 58, 62, 37, 49, 33, 29, 23, 11, 4]"
+Ashwin,DC,BALL,8.5,"[58, -2, 37, 56, 29, 41, 2, 35, 14, 31, 22, 33]"
+Rabada,DC,BALL,10,"[62, 87, 82, 23, 114, 87, 62, 29, 37, 54, 72, 1, 16, 54]"
+Daniel Sams,DC,ALL,7.5,"[12, 0, 2]"
+Nortje,DC,BALL,8,"[7, 56, 13, 87, 56, 29, 4, 54, 58, 54, 28, 25, 79]"
+Mohit Sharma,DC,BALL,8,[23]
+Amit Mishra,DC,BALL,8.5,"[14, 54, 29]"
+Avesh Khan,DC,BALL,7.5,[0]
+Ishant Sharma,DC,BALL,8.5,[4]
+H Patel,DC,BALL,8.5,"[62, 0, 46, 2]"
+Alex Carey,DC,WK,7.5,"[26, 20, 16]"
+Rahane,DC,BAT,8.5,"[22, 14, 13, 10, 35, 93]"
+Tushar Deshpande,DC,BALL,7.5,"[52, 27, -2, 11, 22]"
+Warner,SRH,BAT,10,"[11, 52, 56, 43, 81, 85, 59, 19, 56, 17, 62, 106, 22, 117]"
+Bairstow,SRH,WK,9.5,"[101, 5, 85, 8, 43, 136, 38, 37, 47, 17, 39]"
+Manish Pandey,SRH,BAT,9,"[49, 70, 15, 38, 48, 5, 74, 17, 18, 123, 15, 54, 43, 4]"
+Kane Williamson,SRH,BAT,9.5,"[50, 12, 1, 35, 30, 84, 39, 24, 24, 12]"
+Vijay Shankar,SRH,ALL,8.5,"[27, 10, 18, 44, 97, 46, 29]"
+W Saha,SRH,WK,8,"[45, 115, 49, 99]"
+Mitchell Marsh,SRH,ALL,8.5,[2]
+Abdul Samad,SRH,ALL,7.5,"[27, 41, 23, 13, 31, 4, 12, 12, 4, 4]"
+Priyam Garg,SRH,BAT,8,"[17, 4, 12, 77, 12, 22, 22, 21, 24, 4, 7, 12]"
+Abhishek Sharma,SRH,BAT,8,"[37, 6, 5, 41, 14, 44, 4, 22]"
+Rashid Khan,SRH,BALL,9.5,"[19, 29, 85, 10, 42, 93, 54, 21, 30, 31, 68, 85, 31, 29]"
+Jason Holder,SRH,ALL,8,"[91, 59, 23, 87, 54]"
+Bhuvaneshwar Kumar,SRH,BALL,9,"[9, 4, 2, 54, 29]"
+Sandeep Sharma,SRH,BALL,8.5,"[12, 50, 4, 4, 59, 4, 4, 54, 54, 56, 79]"
+Khaleel Ahmed,SRH,BALL,8.5,"[27, 25, 4, 60, 52, 48, 12]"
+Natarajan,SRH,BALL,8.5,"[32, 27, 29, 50, 12, 62, 18, 50, 52, -2, 6, 54, 43, 2]"
+Siddharth Kaul,SRH,BALL,8,[48]
+Shahbaz Nadeem,SRH,BALL,7.5,"[10, 12, 29, 29, 58]"
+Basil Thampi,SRH,BALL,8,[23]

@@ -1,0 +1,59 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <style>
+            body{
+                background-image:url("{%static 'img1.jpg'%}");
+                background-repeat:no-repeat;
+                background-size: 1370px 620px;
+            }
+
+            h1{
+                position: fixed;
+                bottom: 0;
+                left: 10px;
+                width: 0;
+                font-size:68px;
+                color:rgb(30, 211, 166);
+                font-family: "Arial";
+                font-weight: bolder;
+                white-space: nowrap;
+
+            }
+
+            .button{
+                clip-path: polygon(20% 49%, 100% 32%, 100% 100%, 0 100%);
+                position: fixed;
+                bottom: -37px;
+                right: -35px;
+                width: 465px;
+                background-color: #4dcc33f6;
+                padding: 12px 20px;
+                margin: 50px 50px;
+                text-align: center;
+	            height: 200px;
+	            width: 270px;
+                float: left;
+                
+            }
+
+            .button:hover {background-color: #1aa025c0}
+
+            .button:active {
+                background-color: #3e8e41;
+                box-shadow: 0 15px #666;
+                transform: translateY(4px);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>FANTASY CRICKET PREDICTOR</h1>
+        <form action = "predict">
+            <input class="button" type="submit" value="START">
+        </form>
+    </body>
+</html>

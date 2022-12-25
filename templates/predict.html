@@ -1,0 +1,116 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>predict</title>
+        <style>
+            body{
+                background-image:url("{%static 'img2.jpeg'%}");
+                background-repeat:no-repeat;
+                background-size: 1400px 620px;
+            }
+
+            .team1{
+                position: fixed;
+                bottom: 100px;
+                left: 130px;
+                width: 460px;
+                padding: 12px 20px;
+                margin: 50px 50px;
+                display: inline-block;
+                border: 20px solid rgba(7, 18, 165, 0.897);
+                border-radius: 120px;
+                box-sizing: border-box;
+            }
+
+            .team2{
+                position: fixed;
+                bottom: 100px;
+                right: 90px;
+                width: 465px;
+                padding: 12px 20px;
+                margin: 50px 50px;
+                display: inline-block;
+                border: 20px solid rgba(223, 7, 54, 0.897);
+                border-radius: 120px;
+                box-sizing: border-box; 
+            }
+
+            .button{
+                position: fixed;
+                bottom: -40px;
+                right: 365px;
+                width: 465px;
+                padding: 12px 20px;
+                margin: 50px 50px;
+                display: inline-block;
+                border: 20px solid rgba(1, 78, 7, 0.897);
+                border-radius: 120px;
+                box-sizing: border-box; 
+            }
+
+            .button:hover {background-color: #1aa025c0}
+
+            .button:active {
+                background-color: #3e8e41;
+                box-shadow: 0 15px #666;
+                transform: translateY(4px);
+            }
+
+            h1{
+                position: fixed;
+                top: 0;
+                left: 360px;
+                width: 0;
+                font-size:68px;
+                color:rgba(233, 138, 14, 0.973);
+                font-family: "Arial";
+                font-weight: bolder;
+                white-space: nowrap;
+
+            }
+
+            
+        </style>
+    </head>
+
+    <body>
+        
+        <h1>SELECT TWO TEAMS</h1>
+
+        
+        <form action = "result">
+
+            <input class="team1" list="team1" type="text" name="t1">
+ 
+            <datalist id="team1"> 
+                <option value="CHENNAI SUPER KINGS"/>
+                <option value="DELHI CAPITALS"/>
+                <option value="KOLKATA KNIGHT RIDERS"/>
+                <option value="MUMBAI INDIANS"/>
+                <option value="PUNJAB KINGS"/>
+                <option value="RAJASTHAN ROYALS"/>
+                <option value="ROYAL CHALLENGERS BANGLORE"/>
+                <option value="SUN RISERS HYDERABAD"/>
+            </datalist>
+
+
+        
+            <input class="team2" list="team2" type="text" name="t2">
+
+            <datalist id="team2">
+                <option value="CHENNAI SUPER KINGS"/>
+                <option value="DELHI CAPITALS"/>
+                <option value="KOLKATA KNIGHT RIDERS"/>
+                <option value="MUMBAI INDIANS"/>
+                <option value="PUNJAB KINGS"/>
+                <option value="RAJASTHAN ROYALS"/>
+                <option value="ROYAL CHALLENGERS BANGLORE"/>
+                <option value="SUN RISERS HYDERABAD"/>
+            </datalist>
+        
+            <input class="button" type="submit" value="PREDICT">
+        </form>
+    </body>
+</html>
